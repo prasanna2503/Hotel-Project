@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T05:40:24Z" name="Default suite" finished-at="2024-10-02T05:41:02Z" duration-ms="37318">
+  <suite started-at="2024-10-02T07:54:43Z" name="Default suite" finished-at="2024-10-02T07:55:21Z" duration-ms="38392">
     <groups>
     </groups>
-    <test started-at="2024-10-02T05:40:24Z" name="Default test" finished-at="2024-10-02T05:41:02Z" duration-ms="37318">
+    <test started-at="2024-10-02T07:54:43Z" name="Default test" finished-at="2024-10-02T07:55:21Z" duration-ms="38392">
       <class name="com.booking.hotel.BookingHotel">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.booking.hotel.BookingHotel@2bb3058]" started-at="2024-10-02T05:40:24Z" name="beforeClass" finished-at="2024-10-02T05:40:28Z" duration-ms="4026" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:54:43Z" name="beforeClass" finished-at="2024-10-02T07:54:48Z" duration-ms="4886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="bookingHotel()[pri:0, instance:com.booking.hotel.BookingHotel@2bb3058]" started-at="2024-10-02T05:40:28Z" name="bookingHotel" finished-at="2024-10-02T05:41:02Z" duration-ms="33239" status="PASS">
+        <test-method signature="bookingHotel()[pri:0, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:54:48Z" name="bookingHotel" finished-at="2024-10-02T07:54:53Z" duration-ms="5855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingHotel -->
+        <test-method signature="searchHotel()[pri:2, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:54:53Z" name="searchHotel" finished-at="2024-10-02T07:54:59Z" duration-ms="6082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method signature="selectHotel()[pri:3, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:54:59Z" name="selectHotel" finished-at="2024-10-02T07:55:00Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method signature="hotelNameAndPrizes()[pri:4, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:00Z" name="hotelNameAndPrizes" finished-at="2024-10-02T07:55:03Z" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelNameAndPrizes -->
+        <test-method signature="hotelNameText()[pri:5, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:03Z" name="hotelNameText" finished-at="2024-10-02T07:55:05Z" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelNameText -->
+        <test-method signature="guestDetail()[pri:6, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:05Z" name="guestDetail" finished-at="2024-10-02T07:55:06Z" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestDetail -->
+        <test-method signature="gstDeatils()[pri:7, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:06Z" name="gstDeatils" finished-at="2024-10-02T07:55:07Z" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gstDeatils -->
+        <test-method signature="specialReq()[pri:8, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:07Z" name="specialReq" finished-at="2024-10-02T07:55:07Z" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialReq -->
+        <test-method signature="payment()[pri:9, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:07Z" name="payment" finished-at="2024-10-02T07:55:10Z" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="orderId()[pri:10, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:10Z" name="orderId" finished-at="2024-10-02T07:55:14Z" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderId -->
+        <test-method signature="editBooking()[pri:12, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:14Z" name="editBooking" finished-at="2024-10-02T07:55:17Z" duration-ms="2584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBooking -->
+        <test-method signature="cancelBooking()[pri:13, instance:com.booking.hotel.BookingHotel@10a9d961]" started-at="2024-10-02T07:55:17Z" name="cancelBooking" finished-at="2024-10-02T07:55:21Z" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelBooking -->
       </class> <!-- com.booking.hotel.BookingHotel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

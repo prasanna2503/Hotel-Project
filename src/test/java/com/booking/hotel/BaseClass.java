@@ -19,7 +19,8 @@ package com.booking.hotel;
 	import org.apache.poi.ss.usermodel.Sheet;
 	import org.apache.poi.ss.usermodel.Workbook;
 	import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-	import org.openqa.selenium.By;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 	import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -401,11 +402,13 @@ import org.openqa.selenium.OutputType;
 		}
 		
 		public void clickOkAlert() {
-			driver.switchTo().alert().accept();
+			Alert alert = driver.switchTo().alert();
+			alert.accept();
 		}
 		
 		public void clickCancleAlert() {
-			driver.switchTo().alert().dismiss();
+			Alert alert = driver.switchTo().alert();
+			alert.dismiss();
 		}
 		
 
