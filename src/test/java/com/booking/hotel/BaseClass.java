@@ -279,6 +279,23 @@ import org.openqa.selenium.OutputType;
 			return element;
 		}
 		
+		public List<WebElement> findElementsById(String id) {
+			List<WebElement> elements = driver.findElements(By.xpath(id));
+			return elements;
+		}
+		public List<WebElement> findElementsByClassName(String name) {
+			List<WebElement> elements = driver.findElements(By.xpath(name));
+			return elements;
+		}
+		public List<WebElement> findElementsByTagName(String tagName) {
+			List<WebElement> elements = driver.findElements(By.xpath(tagName));
+			return elements;
+		}
+		public List<WebElement> findElementsByXpath(String xpath) {
+			List<WebElement> elements = driver.findElements(By.xpath(xpath));
+			return elements;
+		}
+		
 		public String getApplnUrl() {
 			String currentUrl = driver.getCurrentUrl();
 			return currentUrl;

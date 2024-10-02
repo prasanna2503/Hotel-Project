@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T19:11:22Z" name="Default suite" finished-at="2024-10-01T19:12:09Z" duration-ms="47463">
+  <suite started-at="2024-10-02T05:40:24Z" name="Default suite" finished-at="2024-10-02T05:41:02Z" duration-ms="37318">
     <groups>
     </groups>
-    <test started-at="2024-10-01T19:11:22Z" name="Default test" finished-at="2024-10-01T19:12:09Z" duration-ms="47463">
+    <test started-at="2024-10-02T05:40:24Z" name="Default test" finished-at="2024-10-02T05:41:02Z" duration-ms="37318">
       <class name="com.booking.hotel.BookingHotel">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.booking.hotel.BookingHotel@416c58f5]" started-at="2024-10-01T19:11:22Z" name="beforeClass" finished-at="2024-10-01T19:11:27Z" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.booking.hotel.BookingHotel@2bb3058]" started-at="2024-10-02T05:40:24Z" name="beforeClass" finished-at="2024-10-02T05:40:28Z" duration-ms="4026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="bookingHotel()[pri:0, instance:com.booking.hotel.BookingHotel@416c58f5]" started-at="2024-10-01T19:11:27Z" name="bookingHotel" finished-at="2024-10-01T19:12:09Z" duration-ms="42250" status="PASS">
+        <test-method signature="bookingHotel()[pri:0, instance:com.booking.hotel.BookingHotel@2bb3058]" started-at="2024-10-02T05:40:28Z" name="bookingHotel" finished-at="2024-10-02T05:41:02Z" duration-ms="33239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingHotel -->
