@@ -6,8 +6,8 @@
       <class name="com.booking.hotel.BookingHotel">
         <methods>
           <include name="beforeClass"/>
+          <include name="orderId"/>
           <include name="afterClass"/>
-          <include name="bookingHotel"/>
         </methods>
       </class> <!-- com.booking.hotel.BookingHotel -->
     </classes>
